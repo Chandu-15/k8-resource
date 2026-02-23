@@ -7,5 +7,7 @@ metadata:
     component: container
 spec:
   containers:
-    - name: nginx
-      image: nginxxx
+    # - name: nginx
+    #   image: nginxxx
+    - name: almalinux
+      image: almalinux:9
