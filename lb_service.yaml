@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx-lb
-  type: LoadBalancer
   selector:
+    type: LoadBalancer
     project: roboshop
     component: frontend
     environment: dev
