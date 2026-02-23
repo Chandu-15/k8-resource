@@ -12,6 +12,6 @@ spec:
       image: nginx
       ports:
        - containerPort: 80
-      envfrom:
-        - ConfigMapRef:
+      envFrom:
+        - configMapRef:
             name: pod-config 
