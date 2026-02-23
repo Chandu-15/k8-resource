@@ -3,8 +3,8 @@ kind: Service
 metadata:
   name: nginx-lb
 spec:
+  type: LoadBalancer
   selector:
-    type: LoadBalancer
     project: roboshop
     component: frontend
     environment: dev
